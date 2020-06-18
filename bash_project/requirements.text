@@ -15,10 +15,12 @@ colorama==0.4.3
 cryptography==2.9
 csrf==0.1b1
 distlib==0.3.0
+dj-database-url==0.5.0
 Django==3.0.7
 django-ckeditor==5.9.0
 django-crispy-forms==1.9.0
 django-filter==2.3.0
+django-heroku==0.3.1
 django-js-asset==1.2.2
 django-storages==1.9.1
 docutils==0.15.2
