@@ -26,7 +26,7 @@ SECRET_KEY = 'm@*q!j&k*g87q9)7(5xs-z3r&@x=de2it5hg5f3qagt%57-@9_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dynamic-web-app-bash', '127.0.0.1']
+ALLOWED_HOSTS = ['dynamic-web-app-bash.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
