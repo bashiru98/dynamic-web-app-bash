@@ -76,25 +76,26 @@
                     background-size: cover;
                }
           </style>
-          {% block content %}
+         {% block content %}
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Login</button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Need An Account? <a id="ml-2" href="{% url 'registers' %}">Sign Up Now</a>
+            </small>
+        </div>
+    </div>
+{% endblock content %}
 
-          <div id="container">
-               <div class="row">
-                    <div class="clo-sm-6">
-                         <form class="container-1" method="POST">
-                              {% csrf_token %}
-                              <fieldset class="form-group">
-                                   <legend class="border_bottom mb-4">Log In</legend>
-                                   {{ form|crispy }}
-                              </fieldset>
-                              <div class="form-group">
-                                   <button class="btn btn-primary" type="submit">Login</button>
-                              </div>
-                         </form>
-                    </div>
-               </div>
-          </div>
-          {% endblock content%}
      </main>
      <script src="{% static 'js/jquery-3.4.1.slim.min.js' %}"
           integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
