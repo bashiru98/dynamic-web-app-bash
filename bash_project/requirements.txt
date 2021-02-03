@@ -4,7 +4,7 @@ astroid==2.4.1
 autopep8==1.5.3
 bcrypt==3.1.7
 beautifulsoup4==4.8.1
-bleach==3.1.4
+bleach==3.3.0
 boto3==1.13.25
 botocore==1.16.25
 bs4==0.0.1
