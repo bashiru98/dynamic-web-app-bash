@@ -38,7 +38,7 @@ Markdown==3.2.1
 markdown2==2.3.8
 mccabe==0.6.1
 newer==1.0.0
-numpy==1.17.3
+numpy==1.22.0
 pandas==0.25.2
 paramiko==2.7.1
 Pillow==7.1.1
