@@ -16,7 +16,7 @@ cryptography==2.9
 csrf==0.1b1
 distlib==0.3.0
 dj-database-url==0.5.0
-Django==3.0.7
+Django==2.2.26
 django-ckeditor==5.9.0
 django-crispy-forms==1.9.0
 django-filter==2.3.0
@@ -41,7 +41,7 @@ newer==1.0.0
 numpy==1.17.3
 pandas==0.25.2
 paramiko==2.7.1
-Pillow==7.1.1
+Pillow==9.0.0
 post==2019.4.13
 psycopg2==2.8.5
 public==2019.4.13
