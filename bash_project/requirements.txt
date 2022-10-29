@@ -41,7 +41,7 @@ newer==1.0.0
 numpy==1.17.3
 pandas==0.25.2
 paramiko==2.7.1
-Pillow==7.1.1
+Pillow==9.0.1
 post==2019.4.13
 psycopg2==2.8.5
 public==2019.4.13
