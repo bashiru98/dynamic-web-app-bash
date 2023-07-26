@@ -8,7 +8,7 @@ bleach==3.1.4
 boto3==1.13.25
 botocore==1.16.25
 bs4==0.0.1
-certifi==2019.9.11
+certifi==2023.7.22
 cffi==1.14.0
 chardet==3.0.4
 colorama==0.4.3
