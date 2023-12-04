@@ -35,7 +35,7 @@ jmespath==0.10.0
 lazy-object-proxy==1.4.3
 lxml==4.5.0
 Markdown==3.2.1
-markdown2==2.3.8
+markdown2==2.4.11
 mccabe==0.6.1
 newer==1.0.0
 numpy==1.17.3
